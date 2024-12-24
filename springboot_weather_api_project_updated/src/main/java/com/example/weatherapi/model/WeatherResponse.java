@@ -8,9 +8,7 @@ import java.util.List;
 @Data // Lombok annotation to generate getters, setters, toString, equals, and hashCode methods
 public class WeatherResponse {
     private String name;
-
     private Main main;
-
     private List<Weather> weather;
 
     @Data // Lombok for inner class

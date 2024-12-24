@@ -1,5 +1,5 @@
 
-package com.example.weatherapi;
+package com.example.weatherapi.Configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

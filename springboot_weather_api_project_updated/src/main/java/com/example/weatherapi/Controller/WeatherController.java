@@ -1,5 +1,5 @@
 
-package com.example.weatherapi;
+package com.example.weatherapi.Controller;
 
 import com.example.weatherapi.model.ForecastResponse;
 import com.example.weatherapi.model.WeatherResponse;

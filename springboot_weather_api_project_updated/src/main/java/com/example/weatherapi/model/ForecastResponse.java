@@ -1,18 +1,15 @@
 
 package com.example.weatherapi.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.List;
 
+@Setter
+@Getter
 public class ForecastResponse {
     private List<Forecast> list;
-
-    public List<Forecast> getList() {
-        return list;
-    }
-
-    public void setList(List<Forecast> list) {
-        this.list = list;
-    }
 
     public static class Forecast {
         private WeatherResponse.Main main;
